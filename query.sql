@@ -1,6 +1,6 @@
 drop table popular_songs;
 drop table popular_artists;
-
+ 
 -- Create a new table for songs
 CREATE TABLE popular_songs (
 	id serial primary key, 
@@ -16,3 +16,6 @@ CREATE TABLE popular_artists (
   weeks_at1 INT,
   weeks INT
 );
+
+select * from popular_songs;
+select * from popular_artists;
