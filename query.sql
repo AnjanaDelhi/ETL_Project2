@@ -21,7 +21,7 @@ CREATE TABLE popular_artists (
 CREATE TABLE awards_weeks (
 	id serial primary key, 
   song_nominee VARCHAR(100) NOT NULL,
-  catagory VARCHAR(100) NOT NULL,
+  category VARCHAR(100) NOT NULL,
   weeks_at1 INT,
   weeks INT
 );
